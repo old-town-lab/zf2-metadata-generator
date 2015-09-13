@@ -14,10 +14,10 @@ return [
                 'generatePhpStormMeta' => [
                     'options' => [
                         'route'    => 'Zf2MetadataGenerator generate',
-                        'defaults' => array(
+                        'defaults' => [
                             'controller' => GeneratorController::class,
                             'action'     => 'generate'
-                        )
+                        ]
                     ],
                 ]
             ]

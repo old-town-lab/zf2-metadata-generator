@@ -71,8 +71,7 @@ class Bootstrap
                 StandardAutoloader::class => [
                     'autoregister_zf' => true,
                     'namespaces' => [
-
-                        'OldTown\\Zf2MetadataGenerator\\' => __DIR__ . '/../../src/',
+                        'OldTown\\Zf2MetadataGenerator' => __DIR__ . '/../../src/',
                         __NAMESPACE__ => __DIR__ . '/tests/',
                         'OldTown\\Zf2MetadataGenerator\\PhpUnit\\TestData' => __DIR__ . '/_files',
                     ]
